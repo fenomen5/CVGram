@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CVGram</string>
+    <string name="base_url">http://cvgram.appspot.com/api</string>
+    <string name="feed_url">http://cvgram.appspot.com/feed.rss</string>
+    <string name="email_incorrect_code">Incorrect verification code</string>
+</resources>

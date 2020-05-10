@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.barkov.ais.cvgram">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity"
+            android:theme="@style/NoBarTheme"/>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="" />
+
+        <activity
+            android:name=".ViewCvActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".EmployerMessagesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".EmployerCvSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".CvListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".MessageThreadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".EmployerActivity"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".AddCvActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".EditCvActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".JobSeekerDashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".SettingsWizardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

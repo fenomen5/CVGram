@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/AppTheme.TopBar</item>
+        <item name="actionBarSize">70dp</item>
+        <item name="android:actionButtonStyle">@style/myActionButtonStyle</item>
+        <item name="actionButtonStyle">@style/myActionButtonStyle</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="NoBarTheme" parent="Theme.AppCompat.NoActionBar">
+    </style>
+    <style name="TabsStyle" parent="TextAppearance.Design.Tab">
+        <item name="tabSelectedTextColor">@color/title_white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@color/colorTopBarBlue</item>
+        <item name="android:textColor">@color/title_white</item>
+        <item name="android:color">@color/title_white</item>
+    </style>
+
+    <style name="Spinner.PopupTheme" parent="AppTheme.PopupOverlay">
+        <item name="android:background">@color/control_overlay</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionBarItemBackground">@color/colorBlue</item>
+    </style>
+
+    <style name="myActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="AppTheme.TopBar">
+        <item name="android:background">@color/colorTopBarBlue</item>
+        <item name="android:shadowColor">@color/control_overlay</item>
+        <item name="android:windowElevation">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+
+        <item name="android:textSize">22sp</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:textColor">@color/title_white</item>
+
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.AppBarOverlay." parent="ThemeOverlay.AppCompat.Light" >
+        <item name="actionBarItemBackground">@color/colorBlue</item>
+    </style>
+</resources>
